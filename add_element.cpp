@@ -6,6 +6,7 @@ void add_element_at_end();
 void add_element_in_between();
 
 int main(){
+    cout << "Made by Sujal Chouhdari"<<endl;
     // add_element_at_end();
     add_element_in_between();
     return 0;
@@ -36,10 +37,9 @@ void add_element_in_between(){
     for (int i = 0; i < 9; i++){
         cout<<arr2[i]<<" ";  //see the original array
     }
-    int num = 10;
-    int index = 3;
+    int num = 10; // add this umber at location 3
     cout <<"\nNumber to add in the middle: "<<num<<endl;
-    cout <<"Index to add the number to: "<<index<<endl;
+    cout <<"Index to add the number to: "<<3<<endl;
 
     for (int i= 8;i>= 3;i--){
         arr2[i+1] = arr2[i];
