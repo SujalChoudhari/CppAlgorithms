@@ -3,7 +3,8 @@
         {
             "name": "Win32",
             "includePath": [
-                "${default}"
+                "${default}",
+                "C:\\MinGW\\include"
             ],
             "defines": [
                 "_DEBUG",
